@@ -1,0 +1,9 @@
+class Solution {
+    public long flowerGame(int n, int m) {
+        long EvenM=m/2;
+        long OddM=(m+1)/2;
+        long EvenN=n/2;
+        long OddN=(n+1)/2;
+        return EvenM*OddN +OddM*EvenN;
+    }
+}
